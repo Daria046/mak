@@ -443,6 +443,16 @@ justify-content: center;
 width: 100%;
 }
 .tx1 h1 {
-font-size: 17px;
+font-size: 15px;
+}
+.os input{
+width: 95%;
+
+}
+.os p{
+    font-size: 12px;
+}
+.korob button {
+font-size: 18px;
 }
 }
