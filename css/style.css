@@ -406,10 +406,12 @@ padding: 10px;
   .prn_all{
      flex-direction: column;
      
+     
   }
   .prn_all_kart_size{
       height: 100%;
       width: 95%;
+      margin: 10px auto;
 }
 
 .prin1 h1 {
@@ -435,6 +437,12 @@ justify-content: center;
 .kar1{
     width: 95%;
     height: 97%;
-    margin-top: 5%;
+    margin: 10px auto;
+}
+.korob{
+width: 100%;
+}
+.tx1 h1 {
+font-size: 17px;
 }
 }
