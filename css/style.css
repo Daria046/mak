@@ -320,6 +320,8 @@
 .panel1 {
     background-color: #552800;
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 90px;
     width: 100%;
     height: 250px;
@@ -327,6 +329,13 @@
 
 .prin1 {
     width: 100%;
+    
+}
+.panel1 p {
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+display: flex;
+margin-left: 35px;
 }
 
 @media (max-width: 700px) {
@@ -454,5 +463,14 @@ width: 95%;
 }
 .korob button {
 font-size: 18px;
+}
+.panel1
+{
+    width: 100%;
+    padding: 5px;
+    font-size: 7px;
+}
+.panel1 p{
+margin-left: 15px;
 }
 }
