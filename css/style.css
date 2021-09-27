@@ -326,10 +326,20 @@
     width: 100%;
     height: 250px;
 }
+.pp
+{
+    width: 100%;
+    display: flex;
+}
 
 .prin1 {
     width: 100%;
     
+}
+.tell
+{
+    width: 100%;
+    display: flex;
 }
 .panel1 p {
 color: white;
