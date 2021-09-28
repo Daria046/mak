@@ -328,8 +328,9 @@
 }
 .pp
 {
-    width: 100%;
+    width: 950%;
     display: flex;
+    justify-content: space-around;
 }
 
 .prin1 {
@@ -338,17 +339,46 @@
 }
 .tell
 {
-    width: 100%;
+    width: 200%;
     display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 .panel1 p {
 color: white;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
 display: flex;
-margin-left: 35px;
+font-size: 19px;
 }
-
-@media (max-width: 700px) {
+@media (max-width: 720px){
+    .str
+    {
+      align-items: flex-start;
+      flex-direction: column;  
+      height: 300px;
+      margin-bottom: 20px;
+      padding: 10px;
+      width: 100%;
+    }
+    .textc
+    {
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nat1 button {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        margin-top: 5%;
+        border-radius: 15px;
+    }
+}
+@media (max-width: 1380px) {
     html{
        width: 100vw;
        overflow-x: hidden;
@@ -364,9 +394,11 @@ margin-left: 35px;
         width: 100%;
     }
     .text_p {
-        flex-direction: row;
+        flex-direction: column;
+      align-items: center;
         width: 100%;
         padding:  10px;
+        background-color: rgba(255, 255, 255, 0.082);
     }
     .text_p a {
         font-size: 14px;
@@ -386,29 +418,7 @@ padding: 10px;
   .tex h1 {
       font-size: 40px;
   }
-  .str
-  {
-    align-items: flex-start;
-    flex-direction: column;  
-    height: 300px;
-    margin-bottom: 20px;
-    padding: 10px;
-    width: 100%;
-  }
-  .textc
-  {
-      justify-content: space-around;
-      flex-direction: column;
-      align-items: flex-start;
-  }
-  .nat1 button {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      height: 100%;
-      margin-top: 5%;
-      border-radius: 15px;
-  }
+ 
   .prin h1{
       font-size: 35px;
       width: 100%;
@@ -477,10 +487,27 @@ font-size: 18px;
 .panel1
 {
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     font-size: 7px;
 }
-.panel1 p{
-margin-left: 15px;
+
+.pp p {
+    font-size: 10px;
+    margin-left: 10px;
+   
+}
+.tell h4 {
+    font-size: 10px;
+    width: 200%;
+    margin-right: 15px;
+    color: white;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+   
+}
+.tell{
+   width: 200%;
+   width: 150%;
 }
 }
