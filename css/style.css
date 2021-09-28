@@ -353,6 +353,10 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
 display: flex;
 font-size: 19px;
 }
+.tell h4{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
 @media (max-width: 720px){
     .str
     {
